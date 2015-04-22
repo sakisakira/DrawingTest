@@ -13,6 +13,7 @@
 		2FCEF59C1AE5CB500045E247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCEF59B1AE5CB500045E247 /* Images.xcassets */; };
 		2FCEF59F1AE5CB500045E247 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FCEF59D1AE5CB500045E247 /* LaunchScreen.xib */; };
 		2FCEF5AB1AE5CB500045E247 /* DrawingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCEF5AA1AE5CB500045E247 /* DrawingTestTests.swift */; };
+		2FCEF5B51AE5CB720045E247 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCEF5B41AE5CB720045E247 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2FCEF5A41AE5CB500045E247 /* DrawingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCEF5A91AE5CB500045E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FCEF5AA1AE5CB500045E247 /* DrawingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTestTests.swift; sourceTree = "<group>"; };
+		2FCEF5B41AE5CB720045E247 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2FCEF5941AE5CB500045E247 /* AppDelegate.swift */,
 				2FCEF5961AE5CB500045E247 /* ViewController.swift */,
+				2FCEF5B41AE5CB720045E247 /* DrawingView.swift */,
 				2FCEF5981AE5CB500045E247 /* Main.storyboard */,
 				2FCEF59B1AE5CB500045E247 /* Images.xcassets */,
 				2FCEF59D1AE5CB500045E247 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCEF5B51AE5CB720045E247 /* DrawingView.swift in Sources */,
 				2FCEF5971AE5CB500045E247 /* ViewController.swift in Sources */,
 				2FCEF5951AE5CB500045E247 /* AppDelegate.swift in Sources */,
 			);
